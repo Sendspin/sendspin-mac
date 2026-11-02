@@ -28,9 +28,11 @@ And speakers or players that speak **Sendspin 1**, the encrypted version of the 
 
 Then **Music Assistant** shows up in the menu, below the speakers. Set this Mac up in Music Assistant and enter the code the Mac shows, and Music Assistant can play the Mac's audio on any of its speakers and groups, AirPlay, Chromecast and Sonos included: choose it in the menu, and select this Mac as an input source there. Music Assistant chooses the speakers and the volume, and it isn't in sync with the speakers in the menu, so the Mac plays to one or the other.
 
-## Install
+## Download
 
-Download the disk image from [Releases](https://github.com/Sendspin/sendspin-mac/releases), open it and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta.
+Sendspin for Mac plays your Mac's audio on Sendspin speakers: lossless, in sync, and chosen from the menu bar. It needs macOS 14 or later.
+
+**[Download the latest release](https://github.com/Sendspin/sendspin-mac/releases/latest)**, open the disk image and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta.
 
 ## Why not just AirPlay?
 
