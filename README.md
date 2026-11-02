@@ -32,7 +32,7 @@ Then **Music Assistant** shows up in the menu, below the speakers. Set this Mac 
 
 Sendspin for Mac plays your Mac's audio on Sendspin speakers: lossless, in sync, and chosen from the menu bar. It needs macOS 14 or later.
 
-**[Download the latest release](https://github.com/Sendspin/sendspin-mac/releases/latest)**, open the disk image and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta.
+**[Download Sendspin for Mac](https://github.com/Sendspin/sendspin-mac/releases/latest/download/Sendspin.dmg)**, open the disk image and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta.
 
 ## Why not just AirPlay?
 

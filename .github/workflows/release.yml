@@ -93,11 +93,13 @@ jobs:
           spctl --assess --type open --context context:primary-signature -vv "$dmg"
           echo "DMG=$dmg" >> "$GITHUB_ENV"
 
+      # The README links releases/latest/download/Sendspin.dmg, a name without the version.
       - name: Create draft release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" "$DMG" --draft --generate-notes \
+          cp "$DMG" build/release/Sendspin.dmg
+          gh release create "$GITHUB_REF_NAME" "$DMG" build/release/Sendspin.dmg --draft --generate-notes \
             --title "Sendspin ${VERSION}"
 
       - name: Remove keychain
