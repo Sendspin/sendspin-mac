@@ -13,6 +13,10 @@ The app adds an output device named **Sendspin**, plus a menu bar app to choose 
 
 <img src="docs/menu.png" width="442" alt="The speaker icon in the menu bar with its menu open: Sendspin with a blue dot, playing. The MacBook Pro Speakers, Kitchen and Living Room play, each with a volume slider and a blue check; Bedroom, Office and Home Assistant Connect AUX-2 have an empty check, to add them. Below a divider, Music Assistant.">
 
+## Download
+
+**[Download the latest release](https://github.com/Sendspin/sendspin-mac/releases/latest)**, open the disk image and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta. Check [what you need](#what-you-need) first.
+
 ## What you need
 
 A Mac with macOS 14 or later. So far it's only been tested on macOS 27.0.1, on a MacBook Pro with Apple silicon; if you run it on an older macOS or an Intel Mac, please let us know how it goes in [Issues](https://github.com/Sendspin/sendspin-mac/issues).
@@ -27,12 +31,6 @@ And speakers or players that speak **Sendspin 1**, the encrypted version of the 
 ### Already running Music Assistant?
 
 Then **Music Assistant** shows up in the menu, below the speakers. Set this Mac up in Music Assistant and enter the code the Mac shows, and Music Assistant can play the Mac's audio on any of its speakers and groups, AirPlay, Chromecast and Sonos included: choose it in the menu, and select this Mac as an input source there. Music Assistant chooses the speakers and the volume, and it isn't in sync with the speakers in the menu, so the Mac plays to one or the other.
-
-## Download
-
-Sendspin for Mac plays your Mac's audio on Sendspin speakers: lossless, in sync, and chosen from the menu bar. It needs macOS 14 or later.
-
-**[Download the latest release](https://github.com/Sendspin/sendspin-mac/releases/latest)**, open the disk image and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta.
 
 ## Why not just AirPlay?
 
