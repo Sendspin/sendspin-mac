@@ -22,7 +22,7 @@ And speakers or players that speak **Sendspin 1**, the encrypted version of the 
 - **[Home Assistant Voice Preview Edition](https://www.home-assistant.io/voice-pe/)** ($59). Plugs into any powered speaker, amplifier or receiver (3.5 mm). Needs firmware built on ESPHome 2026.10 or later.
 - **[Apollo CAST-1](https://apolloautomation.com/blogs/news/meet-cast-1-audio-casting)** ($30). A small adapter with a PCM5122 DAC for powered speakers, amplifiers and receivers. Runs ESPHome, with the same requirement.
 - **Build your own** for under $10: [SendspinZero](https://github.com/RealDeco/SendspinZero), an ESP32-S3 with a DAC board, on ESPHome 2026.10 or later.
-- **A Raspberry Pi or any Linux computer** with a DAC or speakers: [the Sendspin daemon](https://github.com/Sendspin/sendspin-cli), from a release built on aiosendspin 10 or later (8.0.0 isn't yet).
+- **A Raspberry Pi or any Linux computer** with a DAC or speakers: [the Sendspin daemon](https://github.com/Sendspin/sendspin-cpp-cli), 0.4.0 or later.
 
 ### Already running Music Assistant?
 
