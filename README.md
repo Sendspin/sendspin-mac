@@ -13,9 +13,9 @@ The app adds an output device named **Sendspin**, plus a menu bar app to choose 
 
 <img src="docs/menu.png" width="442" alt="The speaker icon in the menu bar with its menu open: Sendspin with a blue dot, playing. The MacBook Pro Speakers, Kitchen and Living Room play, each with a volume slider and a blue check; Bedroom, Office and Home Assistant Connect AUX-2 have an empty check, to add them. Below a divider, Music Assistant.">
 
-## Download
+## Install
 
-**[Download the latest release](https://github.com/Sendspin/sendspin-mac/releases/latest)**, open the disk image and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta. Check [what you need](#what-you-need) first.
+Download the disk image from [Releases](https://github.com/Sendspin/sendspin-mac/releases), open it and drag the app to Applications. On first launch it installs its audio driver (your password once) and asks for local network access. Then click the + on your speakers in the menu bar app: that switches the Mac to Sendspin. The current release is a beta.
 
 ## What you need
 
